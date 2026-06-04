@@ -38,10 +38,10 @@ npm start
 
 Step 2: Running the Mobile Frontend
 Open a new terminal window, navigate to the mobile frontend folder, install dependencies, and start Expo:
-   Bash
-   cd front
-   npm install
-   npx expo start
+Bash
+cd front
+npm install
+npx expo start
 
 Step 3: Launching on Your Physical Device
    A QR Code will appear directly inside your terminal window.
