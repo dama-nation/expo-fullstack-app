@@ -44,6 +44,6 @@ npm install
 npx expo start
 
 Step 3: Launching on Your Physical Device
-   A QR Code will appear directly inside your terminal window.
-   For iOS: Open your iPhone's native Camera app, scan the terminal QR code, and tap the link to open it in Expo Go.
-   For Android: Open the Expo Go app directly, select Scan QR Code, and scan your terminal screen.
+A QR Code will appear directly inside your terminal window.
+For iOS: Open your iPhone's native Camera app, scan the terminal QR code, and tap the link to open it in Expo Go.
+For Android: Open the Expo Go app directly, select Scan QR Code, and scan your terminal screen.
