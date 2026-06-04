@@ -5,7 +5,7 @@ A complete full-stack mobile application featuring a cross-platform React Native
 ## Project Architecture
 
 This repository contains both the client-side mobile interface and the supporting server infrastructure:
-* **`/front`**: The mobile user interface built with React Native and Expo (utilizing modern file-based routing).
+* **`/frontend`**: The mobile user interface built with React Native and Expo (utilizing modern file-based routing).
 * **`/backend`**: The server-side API handling data management, routing, and business logic.
 
 ## Tech Stack
