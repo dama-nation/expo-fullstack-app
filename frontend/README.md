@@ -1,50 +1,49 @@
-# Welcome to your Expo app 👋
+# STUDENT EXPENSE TRACKER (Full-Stack Mobile Application)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A complete full-stack mobile application featuring a cross-platform React Native frontend built with Expo and a dedicated backend server architecture.
 
-## Get started
+## Project Architecture
 
-1. Install dependencies
+This repository contains both the client-side mobile interface and the supporting server infrastructure:
+* **`/front`**: The mobile user interface built with React Native and Expo (utilizing modern file-based routing).
+* **`/backend`**: The server-side API handling data management, routing, and business logic.
 
-   ```bash
-   npm install
-   ```
+## Tech Stack
 
-2. Start the app
+* **Frontend:** React Native, Expo framework, JavaScript / TypeScript
+* **Backend:** Node.js (and your server-side frameworks/databases)
 
-   ```bash
-   npx expo start
-   ```
+## Core Features
 
-In the output, you'll find options to open the app in a
+* **Cross-Platform Performance:** Fully optimized to run natively on both iOS and Android devices.
+* **File-Based Routing:** Leverages modern Expo Router structures for clean mobile navigation.
+* **API Integration:** Seamless client-to-server data communication between the mobile front-end and backend environment.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Local Setup & Installation
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Follow these steps to run both the backend API and the mobile application locally on your machine.
 
-## Get a fresh project
+### Prerequisites
+1. Download the **Expo Go** app on your physical iPhone or Android device.
+2. Ensure you have **Node.js** and **npm** installed on your computer.
 
-When you're ready, run:
+---
 
+### Step 1: Running the Backend Server
+Navigate to the backend directory, download the server libraries, and start the engine:
 ```bash
-npm run reset-project
-```
+cd backend
+npm install
+npm start
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Step 2: Running the Mobile Frontend
+Open a new terminal window, navigate to the mobile frontend folder, install dependencies, and start Expo:
+   Bash
+   cd front
+   npm install
+   npx expo start
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Step 3: Launching on Your Physical Device
+   A QR Code will appear directly inside your terminal window.
+   For iOS: Open your iPhone's native Camera app, scan the terminal QR code, and tap the link to open it in Expo Go.
+   For Android: Open the Expo Go app directly, select Scan QR Code, and scan your terminal screen.
